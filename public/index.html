@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="utf-8" />
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="%PUBLIC_URL%/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/favicon/favicon-16x16.png">
+
+  <meta name="theme-color" content="#000000" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Using Google Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Using Local Font -->
+  <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/fonts/index.css" />
+
+  <title>GD Việt Nam</title>
+  <meta name="description" content="Phần mềm 3D theo thông tư của Bộ Giáo Dục & Đạo Tào" />
+  <meta name="keywords" content="3d, simulation, lab, mo hinh" />
+  <meta name="author" content="GD Việt Nam" />
+  <meta property="og:image" content="%PUBLIC_URL%/images/gdthumb.png" />
+  <meta property="og:image:alt" content="%PUBLIC_URL%/images/gdthumb.png" />
+</head>
+
+<body oncontextmenu="return false;">
+  <script type='text/javascript'>
+    function disableDevTools(e) {
+      if (e.ctrlKey && e.which == 85) {
+        return false;
+      }
+
+      if (e.key === "F12" || e.keyCode === 123) {
+        e.preventDefault();
+      }
+
+      if ((e.ctrlKey || e.metaKey) && e.shiftKey && e.key === "I") {
+        e.preventDefault();
+      }
+    }
+    document.onkeydown = disableDevTools;
+  </script>
+  <noscript>Bạn cần bật javascript để chạy ứng dụng này.</noscript>
+  <div id="root"></div>
+</body>
+
+</html>
