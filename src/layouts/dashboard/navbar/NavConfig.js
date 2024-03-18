@@ -220,301 +220,301 @@ const navConfig = [
 
   // High school
 
-  {
-    subheader: 'high_school',
-    items: [
-      // physics
-      {
-        title: 'physics',
-        path: PATH_DASHBOARD.physics.root,
-        icon: <Iconify icon="ion:logo-react" />,
-        children: [
-          // {
-          //   title: 'earth_and_sky', path: '', icon: <Iconify icon="vscode-icons:file-type-registry" />,
-          //   children: [
-          //     {
-          //       title: 'starmap', path: PATH_DASHBOARD.physics.starmap, icon: <Iconify icon="vscode-icons:file-type-manifest" />
-          //     },
-          //     {
-          //       title: 'solarSystem', path: PATH_DASHBOARD.physics.solar_system, icon: <Iconify icon="vscode-icons:file-type-manifest" />
+  // {
+  //   subheader: 'high_school',
+  //   items: [
+  //     // physics
+  //     {
+  //       title: 'physics',
+  //       path: PATH_DASHBOARD.physics.root,
+  //       icon: <Iconify icon="ion:logo-react" />,
+  //       children: [
+  //         // {
+  //         //   title: 'earth_and_sky', path: '', icon: <Iconify icon="vscode-icons:file-type-registry" />,
+  //         //   children: [
+  //         //     {
+  //         //       title: 'starmap', path: PATH_DASHBOARD.physics.starmap, icon: <Iconify icon="vscode-icons:file-type-manifest" />
+  //         //     },
+  //         //     {
+  //         //       title: 'solarSystem', path: PATH_DASHBOARD.physics.solar_system, icon: <Iconify icon="vscode-icons:file-type-manifest" />
                  
-          //     },
-          //     {
-          //       title: 'simulate_earth_sun_moon', path: PATH_DASHBOARD.physics.simulate_earth_sun_moon, icon: <Iconify icon="vscode-icons:file-type-manifest" />,
+  //         //     },
+  //         //     {
+  //         //       title: 'simulate_earth_sun_moon', path: PATH_DASHBOARD.physics.simulate_earth_sun_moon, icon: <Iconify icon="vscode-icons:file-type-manifest" />,
                
-          //     },
-          //     {
-          //       title: 'Nhật, nguyệt thực, thủy triều', path: '', icon: <Iconify icon="ion:school-outline" />, children: [
-          //         { title: 'eclipse', path: PATH_DASHBOARD.physics.eclipse, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-          //         { title: 'lunar_eclipse', path: PATH_DASHBOARD.physics.lunarEclipse, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-          //         { title: 'tide', path: PATH_DASHBOARD.physics.tide, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-          //       ], icon: <Iconify icon="vscode-icons:file-type-light-todo" />
-          //     },
+  //         //     },
+  //         //     {
+  //         //       title: 'Nhật, nguyệt thực, thủy triều', path: '', icon: <Iconify icon="ion:school-outline" />, children: [
+  //         //         { title: 'eclipse', path: PATH_DASHBOARD.physics.eclipse, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //         //         { title: 'lunar_eclipse', path: PATH_DASHBOARD.physics.lunarEclipse, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //         //         { title: 'tide', path: PATH_DASHBOARD.physics.tide, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //         //       ], icon: <Iconify icon="vscode-icons:file-type-light-todo" />
+  //         //     },
 
-          //   ]
-          // },
-          // {
-          //   title: 'Dao động', path: '', icon: <Iconify icon="vscode-icons:file-type-registry" />,
-          //   children: [
-          //     { title: 'simple_pendulum_descending', path: PATH_DASHBOARD.physics.simple_pendulum_descending, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-          //     { title: 'simple_pendulum_descending_in_oil', path: PATH_DASHBOARD.physics.simple_pendulum_descending_in_oil, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-          //     { title: 'simple_pendulum_descending_in_water', path: PATH_DASHBOARD.physics.simple_pendulum_descending_in_water, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-          //     { title: 'fades_in_air', path: PATH_DASHBOARD.physics.fades_in_air, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-          //     { title: 'fades_in_oil', path: PATH_DASHBOARD.physics.fades_in_oil, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-          //     { title: 'fades_in_water', path: PATH_DASHBOARD.physics.fades_in_water, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-          //     { title: 'forced_oscillation', path: PATH_DASHBOARD.physics.forced_oscillation, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-          //     { title: 'resonance_oscillation', path: PATH_DASHBOARD.physics.resonance_oscillation, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-          //   ]
-          // },
-          // {
-          //   title: 'electrical_circuit', path: PATH_DASHBOARD.physics.electrical_circuit, icon: <Iconify icon="vscode-icons:file-type-manifest" />,
-          // },
-          {
-            title: 'capacitor', path: PATH_DASHBOARD.physics.capacitor, icon: <Iconify icon="vscode-icons:file-type-manifest" />,
-          },
-          // { 
-          //   title: 'nuclearStructure', path: PATH_DASHBOARD.physics.nuclear_structure, icon: <Iconify icon="vscode-icons:file-type-manifest" /> 
-          // },
-          // {
-          //   title: 'gravitational_magnetic_field', path: PATH_DASHBOARD.physics.gravitational_magnetic_field, icon: <Iconify icon="vscode-icons:file-type-manifest" />,
-          // },
-          // {
-          //   title: 'xray', path: PATH_DASHBOARD.physics.xray, icon: <Iconify icon="vscode-icons:file-type-manifest" />
-          // },
-          // {
-          //   title: 'earth_and_sky',
-          //   icon: <Iconify icon="ion:earth-sharp" />,
-          //   children: [
-          // { title: 'lunar_eclipse', path: PATH_DASHBOARD.physics.lunarEclipse },
-          //     { title: 'eclipse', path: PATH_DASHBOARD.physics.eclipse },
-          //     { title: 'tide', path: PATH_DASHBOARD.physics.tide }
-          //   ],
-          // },
-          // { title: 'eclipse', path: PATH_DASHBOARD.physics.eclipse },
-          // { title: 'tide', path: PATH_DASHBOARD.physics.tide },
-          // { title: 'starmap', path: PATH_DASHBOARD.physics.starmap },
-          // { title: 'solarSystem', path: PATH_DASHBOARD.physics.solar_system },
-          // { title: 'electrical_circuit', path: PATH_DASHBOARD.physics.electrical_circuit },
-          // { title: 'nuclearStructure', path: PATH_DASHBOARD.physics.nuclear_structure },
-          // { title: 'resonance_oscillation', path: PATH_DASHBOARD.physics.resonance_oscillation },
-          // { title: 'simple_pendulum_descending', path: PATH_DASHBOARD.physics.simple_pendulum_descending },
-          // { title: 'simple_pendulum_descending_in_oil', path: PATH_DASHBOARD.physics.simple_pendulum_descending_in_oil },
-          // { title: 'simple_pendulum_descending_in_water', path: PATH_DASHBOARD.physics.simple_pendulum_descending_in_water },
-          // { title: 'forced_oscillation', path: PATH_DASHBOARD.physics.forced_oscillation },
-          // { title: 'fades_in_water', path: PATH_DASHBOARD.physics.fades_in_water },
-          // { title: 'fades_in_oil', path: PATH_DASHBOARD.physics.fades_in_oil },
-          // { title: 'fades_in_air', path: PATH_DASHBOARD.physics.fades_in_air },
-          // { title: 'gravitational_magnetic_field', path: PATH_DASHBOARD.physics.gravitational_magnetic_field },
-          // { title: 'xray', path: PATH_DASHBOARD.physics.xray },
-          // { title: 'simulate_earth_sun_moon', path: PATH_DASHBOARD.physics.simulate_earth_sun_moon },
-          // { title: 'light_reflection', path: PATH_DASHBOARD.physics.light_reflection },
-          // { title: 'light_refraction', path: PATH_DASHBOARD.physics.light_refraction },
-          // { title: 'light_dispersion', path: PATH_DASHBOARD.physics.light_dispersion }
-        ],
-      },
-      // toi day roi
-      // {
-      //   title: 'chemistry',
-      //   path: PATH_DASHBOARD.chemistry.root,
-      //   icon: <Iconify icon="ion:flask-outline" />,
-      //   children: [
-      //     // {
-      //     //   title: 'Dùng chung cho nhiều chủ đề', path: '', icon: <Iconify icon="vscode-icons:file-type-registry" />,
-      //     //   children: [
-      //     //     {
-      //     //       title: 'Bộ mô phỏng 3D', path: PATH_DASHBOARD.chemistry.saccarozo, icon: <Iconify icon="ion:school-outline" />, children: [
-      //     //         { title: 'saccarozo', path: PATH_DASHBOARD.chemistry.saccarozo, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     //       ], icon: <Iconify icon="vscode-icons:file-type-manifest" />
-      //     //     }
-      //     //   ]
-      //     // },
-      //     {
-      //       title: 'Ester - lipid', path: '', icon: <Iconify icon="vscode-icons:file-type-registry" />,
-      //       children: [
-      //         { title: 'ester', path: PATH_DASHBOARD.chemistry.ester, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //         { title: 'saponification', path: PATH_DASHBOARD.chemistry.saponification, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //       ]
-      //     },
-      //     {
-      //       title: 'Hydrocarbon', path: '', icon: <Iconify icon="vscode-icons:file-type-registry" />,
-      //       children: [
+  //         //   ]
+  //         // },
+  //         // {
+  //         //   title: 'Dao động', path: '', icon: <Iconify icon="vscode-icons:file-type-registry" />,
+  //         //   children: [
+  //         //     { title: 'simple_pendulum_descending', path: PATH_DASHBOARD.physics.simple_pendulum_descending, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //         //     { title: 'simple_pendulum_descending_in_oil', path: PATH_DASHBOARD.physics.simple_pendulum_descending_in_oil, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //         //     { title: 'simple_pendulum_descending_in_water', path: PATH_DASHBOARD.physics.simple_pendulum_descending_in_water, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //         //     { title: 'fades_in_air', path: PATH_DASHBOARD.physics.fades_in_air, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //         //     { title: 'fades_in_oil', path: PATH_DASHBOARD.physics.fades_in_oil, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //         //     { title: 'fades_in_water', path: PATH_DASHBOARD.physics.fades_in_water, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //         //     { title: 'forced_oscillation', path: PATH_DASHBOARD.physics.forced_oscillation, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //         //     { title: 'resonance_oscillation', path: PATH_DASHBOARD.physics.resonance_oscillation, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //         //   ]
+  //         // },
+  //         // {
+  //         //   title: 'electrical_circuit', path: PATH_DASHBOARD.physics.electrical_circuit, icon: <Iconify icon="vscode-icons:file-type-manifest" />,
+  //         // },
+  //         {
+  //           title: 'capacitor', path: PATH_DASHBOARD.physics.capacitor, icon: <Iconify icon="vscode-icons:file-type-manifest" />,
+  //         },
+  //         // { 
+  //         //   title: 'nuclearStructure', path: PATH_DASHBOARD.physics.nuclear_structure, icon: <Iconify icon="vscode-icons:file-type-manifest" /> 
+  //         // },
+  //         // {
+  //         //   title: 'gravitational_magnetic_field', path: PATH_DASHBOARD.physics.gravitational_magnetic_field, icon: <Iconify icon="vscode-icons:file-type-manifest" />,
+  //         // },
+  //         // {
+  //         //   title: 'xray', path: PATH_DASHBOARD.physics.xray, icon: <Iconify icon="vscode-icons:file-type-manifest" />
+  //         // },
+  //         // {
+  //         //   title: 'earth_and_sky',
+  //         //   icon: <Iconify icon="ion:earth-sharp" />,
+  //         //   children: [
+  //         // { title: 'lunar_eclipse', path: PATH_DASHBOARD.physics.lunarEclipse },
+  //         //     { title: 'eclipse', path: PATH_DASHBOARD.physics.eclipse },
+  //         //     { title: 'tide', path: PATH_DASHBOARD.physics.tide }
+  //         //   ],
+  //         // },
+  //         // { title: 'eclipse', path: PATH_DASHBOARD.physics.eclipse },
+  //         // { title: 'tide', path: PATH_DASHBOARD.physics.tide },
+  //         // { title: 'starmap', path: PATH_DASHBOARD.physics.starmap },
+  //         // { title: 'solarSystem', path: PATH_DASHBOARD.physics.solar_system },
+  //         // { title: 'electrical_circuit', path: PATH_DASHBOARD.physics.electrical_circuit },
+  //         // { title: 'nuclearStructure', path: PATH_DASHBOARD.physics.nuclear_structure },
+  //         // { title: 'resonance_oscillation', path: PATH_DASHBOARD.physics.resonance_oscillation },
+  //         // { title: 'simple_pendulum_descending', path: PATH_DASHBOARD.physics.simple_pendulum_descending },
+  //         // { title: 'simple_pendulum_descending_in_oil', path: PATH_DASHBOARD.physics.simple_pendulum_descending_in_oil },
+  //         // { title: 'simple_pendulum_descending_in_water', path: PATH_DASHBOARD.physics.simple_pendulum_descending_in_water },
+  //         // { title: 'forced_oscillation', path: PATH_DASHBOARD.physics.forced_oscillation },
+  //         // { title: 'fades_in_water', path: PATH_DASHBOARD.physics.fades_in_water },
+  //         // { title: 'fades_in_oil', path: PATH_DASHBOARD.physics.fades_in_oil },
+  //         // { title: 'fades_in_air', path: PATH_DASHBOARD.physics.fades_in_air },
+  //         // { title: 'gravitational_magnetic_field', path: PATH_DASHBOARD.physics.gravitational_magnetic_field },
+  //         // { title: 'xray', path: PATH_DASHBOARD.physics.xray },
+  //         // { title: 'simulate_earth_sun_moon', path: PATH_DASHBOARD.physics.simulate_earth_sun_moon },
+  //         // { title: 'light_reflection', path: PATH_DASHBOARD.physics.light_reflection },
+  //         // { title: 'light_refraction', path: PATH_DASHBOARD.physics.light_refraction },
+  //         // { title: 'light_dispersion', path: PATH_DASHBOARD.physics.light_dispersion }
+  //       ],
+  //     },
+  //     // toi day roi
+  //     // {
+  //     //   title: 'chemistry',
+  //     //   path: PATH_DASHBOARD.chemistry.root,
+  //     //   icon: <Iconify icon="ion:flask-outline" />,
+  //     //   children: [
+  //     //     // {
+  //     //     //   title: 'Dùng chung cho nhiều chủ đề', path: '', icon: <Iconify icon="vscode-icons:file-type-registry" />,
+  //     //     //   children: [
+  //     //     //     {
+  //     //     //       title: 'Bộ mô phỏng 3D', path: PATH_DASHBOARD.chemistry.saccarozo, icon: <Iconify icon="ion:school-outline" />, children: [
+  //     //     //         { title: 'saccarozo', path: PATH_DASHBOARD.chemistry.saccarozo, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     //       ], icon: <Iconify icon="vscode-icons:file-type-manifest" />
+  //     //     //     }
+  //     //     //   ]
+  //     //     // },
+  //     //     {
+  //     //       title: 'Ester - lipid', path: '', icon: <Iconify icon="vscode-icons:file-type-registry" />,
+  //     //       children: [
+  //     //         { title: 'ester', path: PATH_DASHBOARD.chemistry.ester, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'saponification', path: PATH_DASHBOARD.chemistry.saponification, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //       ]
+  //     //     },
+  //     //     {
+  //     //       title: 'Hydrocarbon', path: '', icon: <Iconify icon="vscode-icons:file-type-registry" />,
+  //     //       children: [
 
-      //         { title: 'methane', path: PATH_DASHBOARD.chemistry.methane, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //         { title: 'acetylene', path: PATH_DASHBOARD.chemistry.acetylene, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //         { title: 'Benzene', path: PATH_DASHBOARD.chemistry.benzen, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //         { title: 'benzen_nitrification', path: PATH_DASHBOARD.chemistry.benzen_nitrification, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'methane', path: PATH_DASHBOARD.chemistry.methane, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'acetylene', path: PATH_DASHBOARD.chemistry.acetylene, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'Benzene', path: PATH_DASHBOARD.chemistry.benzen, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'benzen_nitrification', path: PATH_DASHBOARD.chemistry.benzen_nitrification, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
 
-      //       ]
-      //     },
-      //     {
-      //       title: 'Hợp chất carbonyl (aldehyde - ketone) - carboxylic acid', path: '', icon: <Iconify icon="vscode-icons:file-type-registry" />,
-      //       children: [
+  //     //       ]
+  //     //     },
+  //     //     {
+  //     //       title: 'Hợp chất carbonyl (aldehyde - ketone) - carboxylic acid', path: '', icon: <Iconify icon="vscode-icons:file-type-registry" />,
+  //     //       children: [
 
-      //         { title: 'acid_acetic', path: PATH_DASHBOARD.chemistry.acid_acetic, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //         { title: 'ethanal', path: PATH_DASHBOARD.chemistry.ethanal, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //         { title: 'Ethyl acetate', path: PATH_DASHBOARD.chemistry.ethylacetate, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //         { title: 'ethylene', path: PATH_DASHBOARD.chemistry.ethylene, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //         { title: 'methanal', path: PATH_DASHBOARD.chemistry.methanal, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'acid_acetic', path: PATH_DASHBOARD.chemistry.acid_acetic, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'ethanal', path: PATH_DASHBOARD.chemistry.ethanal, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'Ethyl acetate', path: PATH_DASHBOARD.chemistry.ethylacetate, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'ethylene', path: PATH_DASHBOARD.chemistry.ethylene, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'methanal', path: PATH_DASHBOARD.chemistry.methanal, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
 
-      //       ]
-      //     },
-      //     {
-      //       title: 'Hợp chất chứa nitrogen', path: '', icon: <Iconify icon="vscode-icons:file-type-registry" />,
-      //       children: [
+  //     //       ]
+  //     //     },
+  //     //     {
+  //     //       title: 'Hợp chất chứa nitrogen', path: '', icon: <Iconify icon="vscode-icons:file-type-registry" />,
+  //     //       children: [
 
-      //         { title: 'amino_acid', path: PATH_DASHBOARD.chemistry.amino_acid, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //         { title: 'aniline', path: PATH_DASHBOARD.chemistry.anilin, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //         { title: 'methylamine', path: PATH_DASHBOARD.chemistry.methylamine, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //         { title: 'protein', path: PATH_DASHBOARD.chemistry.protein, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'amino_acid', path: PATH_DASHBOARD.chemistry.amino_acid, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'aniline', path: PATH_DASHBOARD.chemistry.anilin, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'methylamine', path: PATH_DASHBOARD.chemistry.methylamine, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'protein', path: PATH_DASHBOARD.chemistry.protein, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
 
-      //       ]
-      //     },
+  //     //       ]
+  //     //     },
 
-      //     {
-      //       title: 'Carbohydrate', path: '', icon: <Iconify icon="vscode-icons:file-type-registry" />,
-      //       children: [
+  //     //     {
+  //     //       title: 'Carbohydrate', path: '', icon: <Iconify icon="vscode-icons:file-type-registry" />,
+  //     //       children: [
 
 
-      //         { title: 'hydrolyis_of_cellulose', path: PATH_DASHBOARD.chemistry.hydrolyis_of_cellulose, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //         { title: 'starch_hydrolyzate', path: PATH_DASHBOARD.chemistry.starch_hydrolyzate, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //         { title: 'starch', path: PATH_DASHBOARD.chemistry.starch, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //         { title: 'saccarozo', path: PATH_DASHBOARD.chemistry.saccarozo, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //         { title: 'maltose', path: PATH_DASHBOARD.chemistry.maltose, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //         { title: 'creation_process_starch', path: PATH_DASHBOARD.chemistry.creation_process_starch, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //       ]
-      //     },
+  //     //         { title: 'hydrolyis_of_cellulose', path: PATH_DASHBOARD.chemistry.hydrolyis_of_cellulose, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'starch_hydrolyzate', path: PATH_DASHBOARD.chemistry.starch_hydrolyzate, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'starch', path: PATH_DASHBOARD.chemistry.starch, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'saccarozo', path: PATH_DASHBOARD.chemistry.saccarozo, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'maltose', path: PATH_DASHBOARD.chemistry.maltose, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'creation_process_starch', path: PATH_DASHBOARD.chemistry.creation_process_starch, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //       ]
+  //     //     },
 
-      //     {
-      //       title: 'Dẫn xuất halogen - alcohol - phenol', path: '', icon: <Iconify icon="vscode-icons:file-type-registry" />,
-      //       children: [
+  //     //     {
+  //     //       title: 'Dẫn xuất halogen - alcohol - phenol', path: '', icon: <Iconify icon="vscode-icons:file-type-registry" />,
+  //     //       children: [
 
-      //         { title: 'phenol', path: PATH_DASHBOARD.chemistry.phenol, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //         { title: 'hydrolyzed_ethyl_bromide', path: PATH_DASHBOARD.chemistry.hydrolyzed_ethyl_bromide, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //         { title: 'methanol', path: PATH_DASHBOARD.chemistry.methanol, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'phenol', path: PATH_DASHBOARD.chemistry.phenol, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'hydrolyzed_ethyl_bromide', path: PATH_DASHBOARD.chemistry.hydrolyzed_ethyl_bromide, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'methanol', path: PATH_DASHBOARD.chemistry.methanol, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
 
-      //       ]
-      //     },
+  //     //       ]
+  //     //     },
 
-      //     // {
-      //     //   title: 'Chưa xác định', path: '', icon: <Iconify icon="vscode-icons:file-type-registry" />,
-      //     //   children: [
-      //     //     {
-      //     //       title: 'Ethylic ancohol (Không có trong TT)', path: '', icon: <Iconify icon="ion:school-outline" />, children: [
-      //     //         { title: 'ethylic_alcohol', path: PATH_DASHBOARD.gradeNine.ethylicAlcohol, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     //       ], icon: <Iconify icon="vscode-icons:file-type-manifest" />
-      //     //     },
-      //     //     {
-      //     //       title: 'Methanol (Không có trong TT)', path: '', icon: <Iconify icon="ion:school-outline" />, children: [
+  //     //     // {
+  //     //     //   title: 'Chưa xác định', path: '', icon: <Iconify icon="vscode-icons:file-type-registry" />,
+  //     //     //   children: [
+  //     //     //     {
+  //     //     //       title: 'Ethylic ancohol (Không có trong TT)', path: '', icon: <Iconify icon="ion:school-outline" />, children: [
+  //     //     //         { title: 'ethylic_alcohol', path: PATH_DASHBOARD.gradeNine.ethylicAlcohol, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     //       ], icon: <Iconify icon="vscode-icons:file-type-manifest" />
+  //     //     //     },
+  //     //     //     {
+  //     //     //       title: 'Methanol (Không có trong TT)', path: '', icon: <Iconify icon="ion:school-outline" />, children: [
 
-      //     //       ], icon: <Iconify icon="vscode-icons:file-type-manifest" />
-      //     //     },
-      //     //   ]
-      //     // },
-      //     {
-      //       title: 'Pin điện và điện phân', path: '', icon: <Iconify icon="vscode-icons:file-type-registry" />,
-      //       children: [
+  //     //     //       ], icon: <Iconify icon="vscode-icons:file-type-manifest" />
+  //     //     //     },
+  //     //     //   ]
+  //     //     // },
+  //     //     {
+  //     //       title: 'Pin điện và điện phân', path: '', icon: <Iconify icon="vscode-icons:file-type-registry" />,
+  //     //       children: [
 
-      //         { title: 'electrolytic_cell', path: PATH_DASHBOARD.chemistry.electrolytic_cell, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //         { title: 'battery', path: PATH_DASHBOARD.chemistry.battery, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'electrolytic_cell', path: PATH_DASHBOARD.chemistry.electrolytic_cell, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //         { title: 'battery', path: PATH_DASHBOARD.chemistry.battery, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
 
-      //       ]
-      //     },
-      //   ],
-      // },
+  //     //       ]
+  //     //     },
+  //     //   ],
+  //     // },
 
-      // chemistry
+  //     // chemistry
 
-      // {
-      //   title: 'chemistry',
-      //   path: PATH_DASHBOARD.chemistry.root,
-      //   icon: <Iconify icon="ion:flask-outline" />,
-      //   children: [
-      //     // { title: 'saccarozo', path: PATH_DASHBOARD.chemistry.saccarozo },
-      //     // { title: 'ester', path: PATH_DASHBOARD.chemistry.ester },
-      //     // { title: 'methane', path: PATH_DASHBOARD.chemistry.methane },
-      //     // { title: 'acid_acetic', path: PATH_DASHBOARD.chemistry.acid_acetic, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'amino_acid', path: PATH_DASHBOARD.chemistry.amino_acid, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'anilin', path: PATH_DASHBOARD.chemistry.anilin, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'acetylene', path: PATH_DASHBOARD.chemistry.acetylene },
-      //     // { title: 'benzen', path: PATH_DASHBOARD.chemistry.benzen },
-      //     // { title: 'electrolytic_cell', path: PATH_DASHBOARD.chemistry.electrolytic_cell, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'ethanal', path: PATH_DASHBOARD.chemistry.ethanal, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'ethylene', path: PATH_DASHBOARD.chemistry.ethylene, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'ethylic_ancohol', path: PATH_DASHBOARD.chemistry.ethylic_ancohol, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'maltose', path: PATH_DASHBOARD.chemistry.maltose, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'methanal', path: PATH_DASHBOARD.chemistry.methanal, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'methanol', path: PATH_DASHBOARD.chemistry.methanol, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'methylamine', path: PATH_DASHBOARD.chemistry.methylamine, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'phenol', path: PATH_DASHBOARD.chemistry.phenol, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'battery', path: PATH_DASHBOARD.chemistry.battery, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'protein', path: PATH_DASHBOARD.chemistry.protein, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'starch', path: PATH_DASHBOARD.chemistry.starch, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'creation_process_starch', path: PATH_DASHBOARD.chemistry.creation_process_starch, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'saponification', path: PATH_DASHBOARD.chemistry.saponification },
-      //     // { title: 'ethylacetate', path: PATH_DASHBOARD.chemistry.ethylacetate, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'benzen_nitrification', path: PATH_DASHBOARD.chemistry.benzen_nitrification, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'hydrolyis_of_cellulose', path: PATH_DASHBOARD.chemistry.hydrolyis_of_cellulose, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'starch_hydrolyzate', path: PATH_DASHBOARD.chemistry.starch_hydrolyzate, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'hydrolyzed_ethyl_bromide', path: PATH_DASHBOARD.chemistry.hydrolyzed_ethyl_bromide, icon: <Iconify icon="vscode-icons:file-type-manifest" /> }
-      //   ],
-      // },
-      // {
-      //   title: 'biology',
-      //   path: PATH_DASHBOARD.biology.root,
-      //   icon: <Icon icon="ic:baseline-biotech" />,
-      //   children: [
+  //     // {
+  //     //   title: 'chemistry',
+  //     //   path: PATH_DASHBOARD.chemistry.root,
+  //     //   icon: <Iconify icon="ion:flask-outline" />,
+  //     //   children: [
+  //     //     // { title: 'saccarozo', path: PATH_DASHBOARD.chemistry.saccarozo },
+  //     //     // { title: 'ester', path: PATH_DASHBOARD.chemistry.ester },
+  //     //     // { title: 'methane', path: PATH_DASHBOARD.chemistry.methane },
+  //     //     // { title: 'acid_acetic', path: PATH_DASHBOARD.chemistry.acid_acetic, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'amino_acid', path: PATH_DASHBOARD.chemistry.amino_acid, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'anilin', path: PATH_DASHBOARD.chemistry.anilin, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'acetylene', path: PATH_DASHBOARD.chemistry.acetylene },
+  //     //     // { title: 'benzen', path: PATH_DASHBOARD.chemistry.benzen },
+  //     //     // { title: 'electrolytic_cell', path: PATH_DASHBOARD.chemistry.electrolytic_cell, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'ethanal', path: PATH_DASHBOARD.chemistry.ethanal, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'ethylene', path: PATH_DASHBOARD.chemistry.ethylene, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'ethylic_ancohol', path: PATH_DASHBOARD.chemistry.ethylic_ancohol, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'maltose', path: PATH_DASHBOARD.chemistry.maltose, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'methanal', path: PATH_DASHBOARD.chemistry.methanal, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'methanol', path: PATH_DASHBOARD.chemistry.methanol, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'methylamine', path: PATH_DASHBOARD.chemistry.methylamine, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'phenol', path: PATH_DASHBOARD.chemistry.phenol, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'battery', path: PATH_DASHBOARD.chemistry.battery, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'protein', path: PATH_DASHBOARD.chemistry.protein, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'starch', path: PATH_DASHBOARD.chemistry.starch, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'creation_process_starch', path: PATH_DASHBOARD.chemistry.creation_process_starch, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'saponification', path: PATH_DASHBOARD.chemistry.saponification },
+  //     //     // { title: 'ethylacetate', path: PATH_DASHBOARD.chemistry.ethylacetate, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'benzen_nitrification', path: PATH_DASHBOARD.chemistry.benzen_nitrification, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'hydrolyis_of_cellulose', path: PATH_DASHBOARD.chemistry.hydrolyis_of_cellulose, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'starch_hydrolyzate', path: PATH_DASHBOARD.chemistry.starch_hydrolyzate, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'hydrolyzed_ethyl_bromide', path: PATH_DASHBOARD.chemistry.hydrolyzed_ethyl_bromide, icon: <Iconify icon="vscode-icons:file-type-manifest" /> }
+  //     //   ],
+  //     // },
+  //     // {
+  //     //   title: 'biology',
+  //     //   path: PATH_DASHBOARD.biology.root,
+  //     //   icon: <Icon icon="ic:baseline-biotech" />,
+  //     //   children: [
           
-      //         {
-      //           title: 'Cấu trúc tế bào', path: '', icon: <Iconify icon="ion:school-outline" />, children: [
-      //             { title: 'prokaryotic', path: PATH_DASHBOARD.biology.prokaryotic, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //             { title: 'eukaryotic', path: PATH_DASHBOARD.biology.eukaryotic, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //           ], icon: <Iconify icon="vscode-icons:file-type-registry" />
-      //         },
-      //         {
-      //           title: 'Virus và các ứng dụng', path: '', icon: <Iconify icon="ion:school-outline" />, children: [
-      //             { title: 'hiv_cells', path: PATH_DASHBOARD.biology.hiv_cells, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //             { title: 'hepatitisB', path: PATH_DASHBOARD.biology.hepatitisB, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //           ], icon: <Iconify icon="vscode-icons:file-type-registry" />
-      //         },
-      //         {
-      //           title: 'republishADN', path: PATH_DASHBOARD.biology.republish_adn, icon: <Iconify icon="vscode-icons:file-type-manifest" /> ,
-      //         },
-      //         {
-      //           title: 'Trao đổi chất và chuyến hoá năng lượng ở thực vật', path: '', icon: <Iconify icon="ion:school-outline" />, children: [
-      //             { title: 'metabolism_in_plants', path: PATH_DASHBOARD.biology.metabolism_in_plants, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //             { title: 'cardiovascular', path: PATH_DASHBOARD.biology.cardiovascular, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //             { title: 'excretory', path: PATH_DASHBOARD.biology.excretory, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //           ], icon: <Iconify icon="vscode-icons:file-type-registry" />
-      //         },
-      //         {
-      //           title: 'Sinh trưởng và phát triển ở sinh vật', path: '', icon: <Iconify icon="ion:school-outline" />, children: [
-      //             { title: 'pollen', path: PATH_DASHBOARD.biology.pollen, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //             { title: 'embryo_sac', path: PATH_DASHBOARD.biology.embryo_sac, icon: <Iconify icon="vscode-icons:file-type-manifest" /> }
-      //           ], icon: <Iconify icon="vscode-icons:file-type-registry" />
-      //         },
+  //     //         {
+  //     //           title: 'Cấu trúc tế bào', path: '', icon: <Iconify icon="ion:school-outline" />, children: [
+  //     //             { title: 'prokaryotic', path: PATH_DASHBOARD.biology.prokaryotic, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //             { title: 'eukaryotic', path: PATH_DASHBOARD.biology.eukaryotic, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //           ], icon: <Iconify icon="vscode-icons:file-type-registry" />
+  //     //         },
+  //     //         {
+  //     //           title: 'Virus và các ứng dụng', path: '', icon: <Iconify icon="ion:school-outline" />, children: [
+  //     //             { title: 'hiv_cells', path: PATH_DASHBOARD.biology.hiv_cells, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //             { title: 'hepatitisB', path: PATH_DASHBOARD.biology.hepatitisB, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //           ], icon: <Iconify icon="vscode-icons:file-type-registry" />
+  //     //         },
+  //     //         {
+  //     //           title: 'republishADN', path: PATH_DASHBOARD.biology.republish_adn, icon: <Iconify icon="vscode-icons:file-type-manifest" /> ,
+  //     //         },
+  //     //         {
+  //     //           title: 'Trao đổi chất và chuyến hoá năng lượng ở thực vật', path: '', icon: <Iconify icon="ion:school-outline" />, children: [
+  //     //             { title: 'metabolism_in_plants', path: PATH_DASHBOARD.biology.metabolism_in_plants, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //             { title: 'cardiovascular', path: PATH_DASHBOARD.biology.cardiovascular, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //             { title: 'excretory', path: PATH_DASHBOARD.biology.excretory, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //           ], icon: <Iconify icon="vscode-icons:file-type-registry" />
+  //     //         },
+  //     //         {
+  //     //           title: 'Sinh trưởng và phát triển ở sinh vật', path: '', icon: <Iconify icon="ion:school-outline" />, children: [
+  //     //             { title: 'pollen', path: PATH_DASHBOARD.biology.pollen, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //             { title: 'embryo_sac', path: PATH_DASHBOARD.biology.embryo_sac, icon: <Iconify icon="vscode-icons:file-type-manifest" /> }
+  //     //           ], icon: <Iconify icon="vscode-icons:file-type-registry" />
+  //     //         },
 
            
-      //   ],
-      // },
-      // {
-      //   title: 'biology',
-      //   path: PATH_DASHBOARD.biology.root,
-      //   icon: <Icon icon="ic:baseline-biotech" />,
-      //   children: [
-      //     // { title: 'hiv_cells', path: PATH_DASHBOARD.biology.hiv_cells, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'prokaryotic', path: PATH_DASHBOARD.biology.prokaryotic, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'eukaryotic', path: PATH_DASHBOARD.biology.eukaryotic, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'hepatitisB', path: PATH_DASHBOARD.biology.hepatitisB, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'cardiovascular', path: PATH_DASHBOARD.biology.cardiovascular, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'excretory', path: PATH_DASHBOARD.biology.excretory, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'metabolism_in_plants', path: PATH_DASHBOARD.biology.metabolism_in_plants, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'pollen', path: PATH_DASHBOARD.biology.pollen, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'republishADN', path: PATH_DASHBOARD.biology.republish_adn, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
-      //     // { title: 'embryo_sac', path: PATH_DASHBOARD.biology.embryo_sac, icon: <Iconify icon="vscode-icons:file-type-manifest" /> }
-      //   ],
-      // },
-    ],
-  },
+  //     //   ],
+  //     // },
+  //     // {
+  //     //   title: 'biology',
+  //     //   path: PATH_DASHBOARD.biology.root,
+  //     //   icon: <Icon icon="ic:baseline-biotech" />,
+  //     //   children: [
+  //     //     // { title: 'hiv_cells', path: PATH_DASHBOARD.biology.hiv_cells, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'prokaryotic', path: PATH_DASHBOARD.biology.prokaryotic, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'eukaryotic', path: PATH_DASHBOARD.biology.eukaryotic, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'hepatitisB', path: PATH_DASHBOARD.biology.hepatitisB, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'cardiovascular', path: PATH_DASHBOARD.biology.cardiovascular, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'excretory', path: PATH_DASHBOARD.biology.excretory, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'metabolism_in_plants', path: PATH_DASHBOARD.biology.metabolism_in_plants, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'pollen', path: PATH_DASHBOARD.biology.pollen, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'republishADN', path: PATH_DASHBOARD.biology.republish_adn, icon: <Iconify icon="vscode-icons:file-type-manifest" /> },
+  //     //     // { title: 'embryo_sac', path: PATH_DASHBOARD.biology.embryo_sac, icon: <Iconify icon="vscode-icons:file-type-manifest" /> }
+  //     //   ],
+  //     // },
+  //   ],
+  // },
 
   // MANAGEMENT
   // ----------------------------------------------------------------------
